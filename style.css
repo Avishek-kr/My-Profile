@@ -42,7 +42,31 @@ img {
 
 
 
+.info{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
 
+.info .title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info .demo{
+    margin: 5px;
+}
+
+.info .demo a{
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
 
 @media (max-width:560px){
     .card{

@@ -41,6 +41,21 @@ img {
 
 
 
+.card img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+.react-section .cards-container{
+    grid-template-columns:repeat(auto-fit, minmax(470px,3fr));
+}
 
 .info{
     text-align: center;

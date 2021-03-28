@@ -40,96 +40,11 @@ img {
 }
 
 
-.video{
-   width: 70%;
-    margin: 0 auto;
-}
-
-main > section{
-    margin-bottom: 2rem;
-}
-
-.card{
-    background-color: white;
-    border-radius: 10px;
-    transition: all .3s ease-in-out;
-}
 
 
-.cards-container{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns:repeat(auto-fit, minmax(500px,3fr));
-}
-
-.card img{
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
 
 
-.card:hover{
-    transform: scale(1.05);
-}
 
-
-.react-section .cards-container{
-    grid-template-columns:repeat(auto-fit, minmax(470px,3fr));
-}
-
-.info{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
-}
-
-.info .title{
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.info .demo{
-    margin: 5px;
-}
-
-.info .demo a{
-    text-decoration: none;
-    background-color: dodgerblue;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-}
-
-@media (max-width:560px){
-    .card{
-        width: 90%;
-    }
-    
-    .video{
-   width: 100%;
-    margin: 0 auto;
-}
-
-    
-    .cards-container{
-    display: grid;
-    grid-gap: 2rem;
-    }
-}
-
-@media (max-width:450px){
-    .card{
-        width:85%;
-    }
-     .video{
-   width: 100%;
-    margin: 0 auto;
-}
-}
 
 @media (max-width:400px){
     .card{

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 :root {
     --mainFont: 'Lato', sans-serif;
     --primary: rgb(255, 90, 95);
@@ -106,6 +108,7 @@ main > section {
     font-size: 20px;
     font-weight: 700;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 .info .demo {
@@ -122,7 +125,13 @@ main > section {
 
 .websites {
     margin-top: 3rem;
+      background: #77A1D3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
+    padding-top:1rem; 
 }
+
 
 @media (max-width:560px) {
     .card {

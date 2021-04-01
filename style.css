@@ -120,6 +120,10 @@ main > section {
     color: white;
 }
 
+.websites {
+    margin-top: 3rem;
+}
+
 @media (max-width:560px) {
     .card {
         width: 90%;
@@ -133,6 +137,8 @@ main > section {
         grid-gap: 2rem;
     }
 }
+
+
 
 @media (max-width:450px) {
     .card {
